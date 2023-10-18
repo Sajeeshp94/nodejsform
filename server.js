@@ -49,8 +49,8 @@ app.post("/", (req,res)=>{
     }
 })
 
-app.get("https://sajeeshp94.github.io/react-digital-portfolio/", (req,res)=>{
-    res.sendFile(__dirname + "https://sajeeshp94.github.io/react-digital-portfolio/")
+app.get("/signup", (req,res)=>{
+    res.sendFile(__dirname + "signup.html")
 });
 
 app.listen(PORT, (req,res)=>{
